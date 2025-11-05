@@ -1,0 +1,17 @@
+sqlalchemy
+pandas
+numpy
+requests
+psycopg2-binary
+mysql-connector-python
+httpx
+pytz
+boto3
+SQLAlchemy
+pyarrow 
+fastparquet
+asyncpg
+cachetools
+emoji
+openpyxl
+tenacity

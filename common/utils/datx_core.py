@@ -1,0 +1,38 @@
+def get_selected_symbols() -> list[str]:
+    # fmt: off
+    return [
+        "AAA", "AAS", "AAT", "AAV", "ABB", "ABS", "ACB", "ACC", "ACL", "ADS", "AGG", "AGR",
+        "AMD", "AMV", "ANV", "APG", "APH", "API", "APS", "ASM", "ASP", "BAF", "BCA", "BCC",
+        "BCE", "BCG", "BCM", "BFC", "BIC", "BID", "BIG", "BII", "BKG", "BMI", "BMP", "BMS", 
+        "BNA", "BOT", "BSI", "BSR", "BVB", "BVG", "BVH", "BVS", "BWE", "C32", "C47", "C4G", 
+        "C69", "CCL", "CDC", "CEN", "CEO", "CIG", "CII", "CKG", "CLX", "CMG", "CMX", "CNG", 
+        "CRC", "CRE", "CSC", "CSI", "CST", "CSV", "CTC", "CTD", "CTF", "CTG", "CTI", "CTR", 
+        "CTS", "CVN", "D2D", "DAG", "DAH", "DBC", "DBD", "DC4", "DCL", "DCM", "DDG", "DDV", 
+        "DGC", "DGW", "DHA", "DHC", "DHM", "DIG", "DL1", "DLG", "DMC", "DPG", "DPM", "DPR", 
+        "DQC", "DRC", "DRH", "DRI", "DS3", "DST", "DTD", "DVG", "DVM", "DXG", "DXP", "DXS", 
+        "EIB", "ELC", "EVE", "EVF", "EVG", "EVS", "FCM", "FCN", "FID", "FIR", "FIT", "FMC", 
+        "FPT", "FRT", "FTM", "FTS", "G36", "GAS", "GEG", "GEX", "GIL", "GKM", "GMD", "GSP", 
+        "GVR", "HAG", "HAH", "HAP", "HAR", "HAX", "HBC", "HCD", "HCM", "HDB", "HDC", "HDG", 
+        "HHG", "HHP", "HHS", "HHV", "HID", "HII", "HMC", "HNG", "HOM", "HPG", "HPX", "HQC", 
+        "HSG", "HSL", "HT1", "HTG", "HTN", "HUT", "HVH", "HVN", "IBC", "IDC", "IDI", "IDJ", 
+        "IJC", "IPA", "ITA", "ITC", "ITD", "ITQ", "JVC", "KBC", "KDC", "KDH", "KHG", "KHP", 
+        "KMR", "KOS", "KSB", "KSF", "KSQ", "KVC", "L14", "L18", "LAS", "LCG", "LCM", "LDG", 
+        "LGL", "LHG", "LIG", "LMH", "LPB", "LSS", "LTG", "MBB", "MBG", "MBS", "MCG", "MIG", 
+        "MPC", "MSB", "MSH", "MSN", "MSR", "MST", "MWG", "NAB", "NAF", "NAG", "NBB", "NBC", 
+        "NDN", "NED", "NHA", "NHH", "NKG", "NLG", "NRC", "NSH", "NT2", "NTL", "NTP", "NVB", 
+        "NVL", "OCB", "ODE", "OGC", "OIL", "ORS", "PAN", "PAS", "PC1", "PDR", "PET", "PFL", 
+        "PHC", "PHR", "PLC", "PLP", "PLX", "PNJ", "POM", "POW", "PPC", "PSH", "PSI", "PTB", 
+        "PTC", "PTL", "PV2", "PVB", "PVC", "PVD", "PVG", "PVI", "PVL", "PVP", "PVS", "PVT", 
+        "PXI", "PXL", "PXS", "PXT", "QBS", "QCG", "QNS", "QTP", "REE", "S99", "SAB", "SAM", 
+        "SBS", "SBT", "SCG", "SCI", "SCR", "SD9", "SDA", "SDD", "SGP", "SGR", "SHB", "SHI", 
+        "SHS", "SJD", "SJF", "SJS", "SKG", "SMC", "SRA", "SSB", "SSH", "SSI", "SSN", "STB", 
+        "STK", "SVD", "SZC", "TAR", "TC6", "TCB", "TCD", "TCH", "TCI", "TCM", "TCO", "TDC", 
+        "TDG", "TDH", "TDM", "TDN", "TDT", "TEG", "TGG", "TIG", "TIP", "TLD", "TLG", "TLH", 
+        "TNA", "TNG", "TNH", "TNI", "TNT", "TPB", "TSC", "TTA", "TTB", "TTF", "TTH", "TV2", 
+        "TVB", "TVC", "TVD", "TVN", "UDC", "VAB", "VC2", "VC3", "VC7", "VCB", "VCG", "VCI", 
+        "VCS", "VDS", "VEA", "VFS", "VGC", "VGI", "VGS", "VGT", "VHC", "VHE", "VHG", "VHM", 
+        "VIB", "VIC", "VIG", "VIP", "VIX", "VJC", "VKC", "VLC", "VNB", "VND", "VNE", "VNM", 
+        "VOC", "VOS", "VPB", "VPG", "VPH", "VPI", "VRE", "VSC", "VSH", "VTD", "VTO", "VTP", 
+        "VTV", "VUA", "YEG"
+    ]
+    # fmt: on
