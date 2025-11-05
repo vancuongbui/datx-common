@@ -6,7 +6,7 @@ psycopg2-binary
 mysql-connector-python
 httpx
 pytz
-boto3
+boto3==1.26.137
 SQLAlchemy
 pyarrow 
 fastparquet
